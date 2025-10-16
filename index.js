@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 app.use(cors({
-  origin: ['https://hackathon-project-frontend-orpin.vercel.app','http://localhost:5173'],
+  origin: ['https://project-frontend-smoky-pi.vercel.app','http://localhost:5173'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
