@@ -22,7 +22,7 @@ res.status(500).send("User get Successfully")
 app.use("/api", route); // All routes will start with /api
 
 
-//const PORT = process.env.PORT || 5000;
-//app.listen(PORT,()=>{
-  //  console.log(`Server is running on ${PORT}`)
-//})
+const PORT = process.env.PORT || 5000;
+app.listen(PORT,()=>{
+ console.log(`Server is running on ${PORT}`)
+})
